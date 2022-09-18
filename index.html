@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portfoio</title>
+  <!-- link with goggle fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet" />
+  <!-- link with fontawesome icons v4.7  -->
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <!-- link with animate.css library  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- add fav icon  -->
+  <link rel="shortcut icon" href="images/favicon-32x32.png"  type="image/x-icon">
+  <!-- link with css sheet  -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- start header section  -->
+  <header class="main-header">
+    <!-- start container div  -->
+    <div class="container">
+      <!-- start nav   -->
+      <nav>
+        <!-- start left-side div (serach-logo) -->
+        <div class="left-side">
+          <div class="logo"></div>
+          <h1>Portfolio</h1>
+          <div class="search-wrapper">
+            <input type="text" placeholder="Search" name="" value="" />
+            <i class="fa fa-search"></i>
+          </div>
+        </div>
+        <!-- end left-side div  -->
+
+        <!-- start right-side div (buttons) -->
+        <div class="right-side">
+          <div class="icons">
+            <ul>
+              <li>
+                <button>
+                  <svg class="moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
+                    <defs></defs>
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                  </svg>
+                </button>
+              </li>
+
+              <li>
+                <button id="pluse-button">
+                  <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </button>
+              </li>
+              <li>
+                <button>
+                  <i class="fa fa-bell-o"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="icons-alter">
+            <i class="fa fa-align-right"></i>
+          </div>
+          <button class="profile-image">
+            <img src="images/profile-foto.jpg" alt="" />
+            <span>Bayan</span>
+          </button>
+        </div>
+        <!-- end right-side div  -->
+      </nav>
+      <!-- start nav   -->
+    </div>
+    <!-- end container div  -->
+  </header>
+  <!-- end header section  -->
+  
+  <!-- start body section  -->
+  <section class="body">
+    <div class="seconed-part">
+      <!-- start article div  -->
+      <article>
+        <!-- start projects section  -->
+        <section class="projects">
+          <!-- start section header  -->
+          <header class="proj-header">
+            <h1>Projects</h1>
+            <p class="date">December, 12</p>
+          </header>
+          <!-- end section header  -->
+          <!-- start second section in project-section[statistics, veiw-btns] -->
+          <div class="proj2">
+            <!-- start projects statistics div  -->
+            <div class="proj-status">
+              <div class="item-status">
+                <span class="status-number">45</span>
+                <span class="status-type">In progress</span>
+              </div>
+              <div class="item-status">
+                <span class="status-number">24</span>
+                <span class="status-type">Upcoming </span>
+              </div>
+              <div class="item-status">
+                <span class="status-number">62</span>
+                <span class="status-type">Total projects</span>
+              </div>
+            </div>
+            <!-- end projects statistics div  -->
+            <!-- start view buttons  -->
+            <div class="btns">
+              <button class="active">
+                <i class="fa fa-th-large"></i>
+              </button>
+              <button title="list view">
+                <i class="fa fa-list"></i>
+              </button>
+            </div>
+            <!-- end view buttons  -->
+
+          </div>
+          <!-- end second section  -->
+          <!-- start tasks div  -->
+          <div class="boxes ">
+            <div class="box">
+              <div class="box-header">
+                <p class="process-date">December 10, 2020</p>
+                <i class="fa fa-ellipsis-v"></i>
+              </div>
+              <div class="box-body">
+                <h1>Web Designing</h1>
+                <p>prototyping</p>
+              </div>
+              <div class="box-progress">
+                <label>Progress</label>
+                <progress min="0" max="100" value="60"></progress>
+                <span>60%</span>
+              </div>
+              <div class="box-footer">
+                <div class="right-side">
+                  <img src="images/1.avif" alt="" />
+                  <img src="images/2.avif" alt="" />
+                  <div class="icon">
+                    <i class="fa fa-plus-circle"></i>
+                  </div>
+                </div>
+                <span>2 days left</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box-header">
+                <p class="process-date">December 10, 2020</p>
+                <i class="fa fa-ellipsis-v"></i>
+              </div>
+              <div class="box-body">
+                <h1>Testing</h1>
+                <p>prototyping</p>
+              </div>
+              <div class="box-progress">
+                <label>Progress</label>
+                <progress min="0" max="100" value="50"></progress>
+                <span>50%</span>
+              </div>
+              <div class="box-footer">
+                <div class="right-side">
+                  <img src="images/1.avif" alt="" />
+                  <img src="images/2.avif" alt="" />
+                  <div class="icon">
+                    <i class="fa fa-plus-circle"></i>
+                  </div>
+                </div>
+                <span>2 days left</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box-header">
+                <p class="process-date">December 10, 2020</p>
+                <i class="fa fa-ellipsis-v"></i>
+              </div>
+              <div class="box-body">
+                <h1>Web Development</h1>
+                <p>prototyping</p>
+              </div>
+              <div class="box-progress">
+                <label>Progress</label>
+                <progress min="0" max="100" value="60"></progress>
+                <span>60%</span>
+              </div>
+              <div class="box-footer">
+                <div class="right-side">
+                  <img src="images/1.avif" alt="" />
+                  <img src="images/2.avif" alt="" />
+                  <div class="icon">
+                    <i class="fa fa-plus-circle"></i>
+                  </div>
+                </div>
+                <span>2 days left</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box-header">
+                <p class="process-date">December 10, 2020</p>
+                <i class="fa fa-ellipsis-v"></i>
+              </div>
+              <div class="box-body">
+                <h1>Svg Animations</h1>
+                <p>prototyping</p>
+              </div>
+              <div class="box-progress">
+                <label>Progress</label>
+                <progress min="0" max="100" value="80"></progress>
+                <span>80%</span>
+              </div>
+              <div class="box-footer">
+                <div class="right-side">
+                  <img src="images/1.avif" alt="" />
+                  <img src="images/2.avif" alt="" />
+                  <div class="icon">
+                    <i class="fa fa-plus-circle"></i>
+                  </div>
+                </div>
+                <span>2 days left</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box-header">
+                <p class="process-date">December 10, 2020</p>
+                <i class="fa fa-ellipsis-v"></i>
+              </div>
+              <div class="box-body">
+                <h1>UI Development</h1>
+                <p>prototyping</p>
+              </div>
+              <div class="box-progress">
+                <label>Progress</label>
+                <progress min="0" max="100" value="20"></progress>
+                <span>20%</span>
+              </div>
+              <div class="box-footer">
+                <div class="right-side">
+                  <img src="images/1.avif" alt="" />
+                  <img src="images/2.avif" alt="" />
+                  <div class="icon">
+                    <i class="fa fa-plus-circle"></i>
+                  </div>
+                </div>
+                <span>2 days left</span>
+              </div>
+            </div>
+            <div class="box">
+              <div class="box-header">
+                <p class="process-date">December 10, 2020</p>
+                <i class="fa fa-ellipsis-v"></i>
+              </div>
+              <div class="box-body">
+                <h1>Data Analysis</h1>
+                <p>prototyping</p>
+              </div>
+              <div class="box-progress">
+                <label>Progress</label>
+                <progress min="0" max="100" value="60"></progress>
+                <span>60%</span>
+              </div>
+              <div class="box-footer">
+                <div class="right-side">
+                  <img src="images/1.avif" alt="" />
+                  <img src="images/2.avif" alt="" />
+                  <div class="icon">
+                    <i class="fa fa-plus-circle"></i>
+                  </div>
+                </div>
+                <span>2 days left</span>
+              </div>
+            </div>
+          </div>
+          <!-- start tasks div  -->
+        </section>
+        <!-- end projects section  -->
+
+        <!-- start aside list  -->
+        <div class="list">
+          <ul>
+            <li>
+              <a href="#" class="active">
+                <i class="fa fa-home"></i>
+              </a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-clock-o"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-calendar-o"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-cog"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- end aside list  -->
+      </article>
+      <!-- end article div  -->
+
+      <aside>
+        <h1 class="aside-title">Client Messages</h1>
+        <div class="boxes">
+          <div class="box">
+            <img src="images/1.avif" alt="" />
+            <div class="Message">
+              <div class="Msg-sender">
+                <h1 class="client-name">Stephanie</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <p>
+                Awesome! 🤩 I like it. We can schedule a meeting for the next
+                one.
+              </p>
+              <div class="Date">
+                <span>Dec, 11 </span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/David.avif" alt="" />
+            <div class="Message">
+              <div class="Msg-sender">
+                <h1 class="client-name">David</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <p>
+                Hey, can tell me about progress of project? I'm waiting for
+                your response.
+              </p>
+              <div class="Date">
+                <span>Dec, 12 </span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/Jessica.avif" alt="" />
+            <div class="Message">
+              <div class="Msg-sender">
+                <h1 class="client-name">Jessica</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <p>
+                I got your first assignment. It was quite good. 🥳 We can
+                continue with the next assignment.
+              </p>
+              <div class="Date">
+                <span>Dec, 12 </span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images//MARK.avif" alt="" />
+            <div class="Message">
+              <div class="Msg-sender">
+                <h1 class="client-name">Mark</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <p>
+                I am really impressed! Can't wait to see the final result.
+              </p>
+              <div class="Date">
+                <span>Dec, 12 </span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/1.avif" alt="" />
+            <div class="Message">
+              <div class="Msg-sender">
+                <h1 class="client-name">Stephanie</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <p>
+                I got your first assignment. It was quite good. 🥳 We can
+                continue with the next assignment.
+              </p>
+              <div class="Date">
+                <span>Dec, 12 </span>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/1.avif" alt="" />
+            <div class="Message">
+              <div class="Msg-sender">
+                <h1 class="client-name">Stephanie</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-star">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <p>
+                I got your first assignment. It was quite good. 🥳 We can
+                continue with the next assignment.
+              </p>
+              <div class="Date">
+                <span>Dec, 12 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="aside-alternate aside-open" title="client messages">
+        <i class="fa fa-comment-o"></i>
+      </div>
+      <div class="aside-alternate aside-close" title="client messages">
+        <i class="fa fa-close"></i>
+      </div>
+    </div>
+  </section>
+  <!-- end body section  -->
+
+  <!-- start loading section -->
+  <section class="loading">
+    <span class="loader"></span>
+  </section>
+  <!-- start loading section -->
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
